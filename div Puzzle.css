@@ -1,33 +1,43 @@
+body {
+    font-family: "Avenir Next";
+}
+
 .red container {
     width: 400px;
     height: 100px;
     background-color: #f00;
 }
+
 .white container {
     top: 20px;
     right: 20px;
 }
+
 .purple container {
     width: 40px;
     height: 40px;
     margin-left: 10px;
     background-color: #6729a0;
 }
+
 .green container {
     width: 150px;
     height: 250px;
     background-color: #0a5;
 }
+
 .blue container {
     width: 140px;
     height: 250px;
     background-color: #2563eb;
 }
+
 .oreange container {
     width: 140px;
     height: 40px;
     background-color: #ff863f;
 }
+
 .yellow container {
     width: 400px;
     height: 100px;
