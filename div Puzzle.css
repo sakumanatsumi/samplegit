@@ -15,4 +15,21 @@
 }
 .green container {
     width: 150px;
+    height: 250px;
+    background-color: #0a5;
+}
+.blue container {
+    width: 140px;
+    height: 250px;
+    background-color: #2563eb;
+}
+.oreange container {
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+}
+.yellow container {
+    width: 400px;
+    height: 100px;
+    background-color: #fd0;
 }
