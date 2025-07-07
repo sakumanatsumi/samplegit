@@ -11,7 +11,6 @@ body {
 .white {
     top: 20px;
     right: 20px;
-    display: flex;
 }
 
 .purple {
@@ -19,21 +18,18 @@ body {
     height: 40px;
     margin-left: 10px;
     background-color: #6729a0;
-    display: flex;
 }
 
 .green {
     width: 150px;
     height: 250px;
     background-color: #0a5;
-    display: flex;
 }
 
 .blue {
     width: 140px;
     height: 250px;
     background-color: #2563eb;
-    display: flex;
 }
 
 .oreange {
