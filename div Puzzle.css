@@ -6,6 +6,7 @@ body {
     width: 400px;
     height: 100px;
     background-color: #f00;
+    position: relative;
 }
 
 .white {
@@ -13,6 +14,8 @@ body {
     right: 20px;
     display: flex;
     background-color: #ffffff;
+    padding: 10px;
+    position: absolute;
 }
 
 .purple {
@@ -22,18 +25,12 @@ body {
     background-color: #6729a0;
 }
 
-.purple {
-    width: 40px;
-    height: 40px;
-    margin-left: 10px;
-    background-color: #6729a0;
+.purple:first-child {
+    margin-left: 0;
 }
 
-.purple {
-    width: 40px;
-    height: 40px;
-    margin-left: 10px;
-    background-color: #6729a0;
+.green-container {
+    display: flex;
 }
 
 .green {
@@ -46,47 +43,32 @@ body {
     width: 250px;
     height: 250px;
     background-color: #2563eb;
+    position: relative;
 }
 
-.white {
-    top: 20px;
-    right: 20px;
+.orange-wrapper {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: #ffffff;
+    padding: 5px;
+    width: 150px;
+    box-sizing: border-box;
 }
 
-.oreange {
+.orange {
     width: 140px;
     height: 40px;
     background-color: #ff863f;
+    margin-bottom: 10px;
 }
 
-.white {
-    top: 20px;
-    right: 20px;
-}
-
-.oreange {
-    width: 140px;
-    height: 40px;
-    background-color: #ff863f;
-}
-
-.white {
-    top: 20px;
-    right: 20px;
-}
-
-.oreange {
-    width: 140px;
-    height: 40px;
-    background-color: #ff863f;
+.orange:last-child {
+    margin-bottom: 0;
 }
 
 .yellow {
     width: 400px;
     height: 100px;
     background-color: #fd0;
-}
-
-.green-container {
-    display: flex;
 }
