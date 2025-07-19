@@ -47,13 +47,14 @@ body {
 }
 
 .orange-wrapper {
-    position: absolute;
-    top: 40px;
-    left: 40px;
-    background-color: #ffffff;
+    margin: 40px;
+}
+
+.white-box {
+    background-color: white;
     padding: 5px;
-    width: 150px;
-    box-sizing: border-box;
+    margin-bottom: 10px;
+    width: fit-content;
 }
 
 .orange {
